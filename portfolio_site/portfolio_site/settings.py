@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'messageboard.MessageboardConfig',
+    'messageboard.apps.MessageboardConfig',
     'portfolio.apps.PortfolioConfig',    
     'django.contrib.admin',
     'django.contrib.auth',

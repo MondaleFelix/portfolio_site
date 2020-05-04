@@ -10,5 +10,5 @@ def contact(request):
 	return HttpResponse("Contact Me")
 
 def greet_by_name(request, name):
-	return HttpResponse(f"hello{name}")
+	return HttpResponse(f"hello {name}")
 
